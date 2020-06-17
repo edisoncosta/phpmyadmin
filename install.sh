@@ -7,4 +7,5 @@ cd /tmp
 
 wget https://files.phpmyadmin.net/phpMyAdmin/$VERSION/phpMyAdmin-$VERSION-all-languages.tar.gz
 tar xzvf phpMyAdmin-$VERSION-all-languages.tar.gz 
-mv phpMyAdmin-$VERSION-all-languages/* /var/www/26000/phpmyadmin/htdocs
+mv phpMyAdmin-$VERSION-all-languages/* /var/www/tools/phpmyadmin/htdocs
+cp /var/www/tools/phpmyadmin/htdocs/config.sample.inc.php /var/www/tools/phpmyadmin/htdocs/config.inc.php
